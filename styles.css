@@ -5,7 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     background: #222;
-    background-image: url(/img/mathijs-beks-Lej_-3cke2c-unsplash.jpg); 
+    background: url(/img/mathijs-beks-Lej_-3cke2c-unsplash.jpg) no-repeat center center fixed; 
     font-family: 'Zen Old Mincho', serif;
     
 }
@@ -34,8 +34,8 @@ button {
     margin: 0.5em;
     border-radius: 50%;
     border: none;
-    height: 46px;
-    width: 46px;
+    height: 44px;
+    width: 44px;
     outline: none;
     background-color: #7c7c7c6b;
     color: white;
@@ -51,7 +51,11 @@ input.search-bar {
     background-color: #7c7c7c6b;
     color: white;
     font-family: inherit;
-    font-size: 120%;
+    font-size: 105%;
     width: 100%;
+}
+
+h1.temp {
+    margin: 0;
 }
 
